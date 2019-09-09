@@ -1,0 +1,9 @@
+CREATE TABLE messages(
+	id FLOAT PRIMARY KEY AUTO_INCREMENT,
+	conversationId FLOAT NOT NULL,
+	text VARCHAR(30) NOT NULL,
+	timestamp TIMESTAMP,
+	msgfrom FLOAT NULL,
+	msgto FLOAT NULL	
+
+)ENGINE= InnoDB DEFAULT CHARSET=utf8
